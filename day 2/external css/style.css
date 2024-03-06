@@ -1,0 +1,27 @@
+/* h1 {
+  color: violet;
+}
+
+.p-1 {
+  color: rgb(0, 0, 255);
+} */
+
+#id-1 {
+  /* color: rgba(32, 234, 245, 0.277); */
+  /* color: #63b46338; */
+  /* color: hsl(360, saturation, lightness); */
+  /* color: hsla(0, 91%, 57%, 0.335); */
+
+  /* background-color: coral;
+  background: radial-gradient(yellow, #ff99cc); */
+
+  /* background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); */
+}
+
+/*  Universal Selector */
+
+* {
+  color: red;
+  background-color: yellow;
+}
