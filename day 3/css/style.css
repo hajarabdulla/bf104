@@ -1,0 +1,41 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+
+  /* top right bottom left */
+  /* padding-top: 20px;
+  padding-left: 40px;
+  */
+
+  /* padding: 20px; */
+  /* padding: 20px 40px; */
+  /* padding: 20px 30px 40px; */
+  /* padding: 20px 30px 30px 40px; */
+
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: chartreuse; */
+
+  /* border: 10px solid chartreuse;
+
+  border-top-style: dotted;
+  border-right-style: double; */
+  /* border-left: 3px solid coral; */
+
+  /* border-radius: 10px; */
+  /* border-radius: 50%; */
+
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 10px; */
+
+  /* margin: 40px; */
+  /* margin-top: 50px; */
+
+  /* margin: 41px 60px 80px; */
+
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box;
+  border: 5px solid chartreuse;
+  outline: 5px dashed red; */
+}
