@@ -26,4 +26,60 @@
 
 input {
   width: 400px;
+  height: 40px;
+}
+
+#box-1.wrapper.box {
+}
+
+.heading {
+  color: green;
+}
+/* element = 1 */
+/* class = 10 */
+/* inline css = 1000 */
+/* id css = 100 */
+h1 {
+  color: red;
+}
+
+/*! 11 */
+h1.heading {
+  color: green;
+}
+
+#heading-1 {
+  color: blue;
+}
+
+#heading-1.heading {
+  color: purple;
+}
+
+h1#heading-1.heading {
+  color: violet;
+}
+
+/* h1 {
+  color: purple !important;
+} */
+
+/*! Descendant selector */
+.wrapper p {
+  color: red;
+}
+
+/*! Child selector */
+.wrapper > p {
+  color: green;
+}
+
+/*! General sibling */
+/* h1 ~ p {
+  color: chocolate;
+} */
+
+/*! Adjacent sibling  */
+h1 + p {
+  color: chocolate;
 }
