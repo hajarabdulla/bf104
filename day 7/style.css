@@ -1,0 +1,29 @@
+.block-element {
+  background-color: coral;
+  display: block;
+  margin: 20px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.inline-element {
+  background-color: chartreuse;
+  display: inline;
+  margin: 20px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.inline-block-element {
+  background-color: blue;
+  display: inline-block;
+  margin: 20px;
+}
+
+/*! Inline element-ler margin-top, margin-bottom and width and height almir */
+
+input {
+  width: 400px;
+}
