@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*! Header start */
+
+.header-top {
+  background-color: rgb(171, 170, 170);
+}
+
+.header-top .container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+}
+
+.header-top-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .logo {
+    width: 40px;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+button:first-child {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.header-bottom .container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 40px;
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 10px;
+
+    svg {
+      width: 16px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+/*! Header end */
+
+/*! Main section start */
+.services {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service {
+  background-color: rgb(171, 170, 170);
+  width: 30%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+
+  svg {
+    width: 100px;
+  }
+  h3 {
+    margin: 20px 0 10px;
+  }
+}
+/*! Main section end */
