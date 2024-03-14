@@ -1,0 +1,117 @@
+input[type] {
+  background-color: red;
+}
+
+/* div[a*="h"] {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+div[a^="h"] {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+div[a$="h"] {
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+} */
+
+.hover-me:hover {
+  background-color: brown;
+}
+
+.active-me:active {
+  background-color: chocolate;
+}
+
+.focus-me:focus {
+  background-color: cornflowerblue;
+}
+
+/* p {
+  display: none;
+}
+
+.btn:hover ~ p {
+  display: block;
+} */
+
+div p:first-child {
+  color: greenyellow;
+}
+
+div p:nth-child(2) {
+  color: blue;
+}
+
+div p:last-child {
+  color: orange;
+}
+
+div p:nth-of-type(2) {
+  color: purple;
+}
+
+/* div p:nth-last-child() */
+
+p::first-line {
+  color: crimson;
+}
+
+:empty {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+::selection {
+  color: hotpink;
+  background-color: black;
+}
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+/* div::before {
+  content: "Hello";
+} */
+
+/* p::after {
+  content: "Hello";
+} */
+
+.bg-img {
+  background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg");
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+/* .bg-img::before {
+  content: "";
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.9;
+} */
+
+/* .kolge {
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.9;
+} */
