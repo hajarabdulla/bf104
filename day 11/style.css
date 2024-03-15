@@ -1,0 +1,26 @@
+/* px , %, vh, rem, em*/
+
+/* .wrapper {
+  width: 600px;
+  height: 100vh;
+  background-color: chartreuse;
+} */
+
+html {
+  font-size: 16px;
+}
+
+.box {
+  /* width: 50%; */
+  /* width: 50vw; */
+
+  /* width: 1em; */
+  width: 1rem;
+  height: 3rem;
+  background-color: red;
+}
+
+.wrapper {
+  width: 50%;
+  border: 1px solid red;
+}
