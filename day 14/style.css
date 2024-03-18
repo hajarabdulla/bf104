@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*! Container start */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/*! Container end */
+
+/*! Service section start */
+#service-section {
+  background-color: #1d809f;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+
+  .service {
+    width: 100%;
+    text-align: center;
+
+    .circle {
+      padding: 14px 20px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    svg {
+      width: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .service {
+      width: 47%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .services {
+    .service {
+      width: 20%;
+    }
+  }
+}
+/*! Service section end */
+
+/*! Welcome section start */
+#welcome-section {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+  padding: 15rem 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+/*! Welcome section end */
+
+#project-section {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  .project {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 5rem 2rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+
+    .project {
+      width: 50%;
+    }
+  }
+}

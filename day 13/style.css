@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 23%;
+  height: 200px;
+  background-color: palevioletred;
+}
+
+/*! Mobile */
+@media (max-width: 575px) {
+  .box {
+    width: 100%;
+    background-color: dodgerblue;
+  }
+}
+
+/*! Mini tablet */
+@media (min-width: 575px) and (max-width: 768px) {
+  .box {
+    width: 100%;
+    background-color: coral;
+  }
+}
+
+/*! Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+  .box {
+    width: 48%;
+    background-color: rgb(99, 199, 99);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .box {
+    width: 48%;
+    background-color: rgb(136, 98, 224);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
