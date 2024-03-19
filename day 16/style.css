@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.area {
+  width: 800px;
+  height: 800px;
+  background-color: yellow;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+
+  /* transform: translate(50px, 100px); */
+  /* transform: rotate(50deg); */
+  /* transform: skew(12deg); */
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* transition-property: transform;
+  transition-duration: 0.5s; */
+  /* transition-delay: 2s; */
+  transition: all 0.5s;
+  animation-name: changeColor;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* .box:hover {
+  transform: scale(2);
+  background-color: red;
+} */
+
+/* @keyframes changeColor {
+  from {
+    background-color: cadetblue;
+  }
+  to {
+    background-color: purple;
+  }
+} */
+
+@keyframes changeColor {
+  0% {
+    background-color: cadetblue;
+    transform: translate(0px, 0px);
+  }
+  25% {
+    background-color: blue;
+    transform: translate(200px, 0);
+  }
+  50% {
+    background-color: black;
+    transform: translate(200px, 200px);
+  }
+  75% {
+    background-color: coral;
+    transform: translate(0, 200px);
+  }
+  100% {
+    background-attachment: purple;
+    transform: translate(0, 0);
+  }
+}
