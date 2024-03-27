@@ -1,0 +1,92 @@
+$primaryColor: red;
+$secondaryColor: blue;
+$textColor: green;
+$backgroundColor: hotpink;
+
+@mixin flexBox($justifyContent: center, $gapSize: 40px) {
+  display: flex;
+  align-items: center;
+  justify-content: $justifyContent;
+  gap: $gapSize;
+}
+
+.heading-group {
+  @include flexBox(space-between, 10px);
+
+  h1 {
+    color: white;
+    background-color: $primaryColor;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+.btn-group {
+  //   @include flexBox(space-around);
+
+  background-color: #28293e;
+}
+
+.btn {
+  background-color: $backgroundColor;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+%dangerAlert {
+  background-color: rgba(255, 0, 0, 0.208);
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+%successAlert {
+  background-color: rgba(0, 128, 0, 0.282);
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.danger-alert {
+  @extend %dangerAlert;
+}
+
+.success-alert {
+  @extend %successAlert;
+}
+
+@mixin buttonDesign($bgColor, $borderColor, $textColor) {
+  background-color: $bgColor;
+  border: thin solid $borderColor;
+  color: $textColor;
+  font-size: 0.7rem;
+  padding: 1rem 2rem;
+
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+}
+
+.btn-1 {
+  @include buttonDesign(transparent, #fff, #fff);
+}
+
+.btn-2 {
+  @include buttonDesign(#ef6d58, #ef6d58, #fff);
+}
+
+.btn-3 {
+  @include buttonDesign(#fff, #fff, #000);
+}
+
+.btn-4 {
+  @include buttonDesign(violet, violet, #fff);
+}
